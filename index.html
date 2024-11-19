@@ -1,137 +1,249 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
 <html>
-	<head>
-		<title>Read Only by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <section id="header">
+      <header>
+        <span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+        <h1 id="logo"><a href="#">Mit Swadas</a></h1>
+        <p>Java and Python developer<br /></p>
+      </header>
+      <nav id="nav">
+        <ul>
+          <li><a href="#one" class="active">About</a></li>
+          <li><a href="#two">Things I Can Do</a></li>
+          <li><a href="#three">A Few Accomplishments</a></li>
+          <li><a href="#four">Contact</a></li>
+        </ul>
+      </nav>
+      <footer>
+        <ul class="icons">
+          <li>
+            <a
+              href="https://github.com/Spacecode10"
+              class="icon brands fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/mit-swadas/"
+              class="icon solid fa-envelope"
+              ><span class="label">Linkedin</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="javascript:void(0)"
+              onclick="copyToClipboard()"
+              class="icon solid fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-instagram"
+              ><span class="label">Instagram</span></a
+            >
+          </li>
+        </ul>
+      </footer>
+    </section>
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Willis Corto</a></h1>
-					<p>I got reprogrammed by a rogue AI<br />
-					and now I'm totally cray</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Things I Can Do</a></li>
-						<li><a href="#three">A Few Accomplishments</a></li>
-						<li><a href="#four">Contact</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-			</section>
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <!-- One -->
+        <section id="one">
+          <div class="image main" data-position="center">
+            <img src="images/banner.jpg" alt="" />
+          </div>
+          <div class="container">
+            <header class="major">
+              <h2>Hey! I am Mit Swadas.</h2>
+              <p>
+                Driven by a passion for coding.<br />
+                <br />
+                My goal is to turn ideas into reality with elegant and efficient
+                code.
+              </p>
+            </header>
+          </div>
+        </section>
+        <section id="two">
+          <div class="container">
+            <h3>Programming Languages</h3>
+            <p></p>
+            <ul class="feature-icons">
+              <li class="icon solid fa-java">Java</li>
+              <li class="icon solid fa-java">Python</li>
+              <li class="icon solid fa-coffee">C++</li>
+              <li class="icon solid fa-coffee">SQL</li>
+              <li class="icon solid fa-coffee">Javascript</li>
+            </ul>
+            <h3>Tools and Frameworks</h3>
+            <ul class="feature-icons">
+              <li class="icon solid fa-java">Git and Github</li>
+              <li class="icon solid fa-java">Django</li>
+              <li class="icon solid fa-coffee">SpringBoot</li>
+              <li class="icon solid fa-coffee">MySQL and PostgreSQL</li>
+              <li class="icon solid fa-coffee">Neo4j</li>
+              <li class="icon solid fa-coffee">Langchain</li>
+              <li class="icon solid fa-coffee">Docker</li>
+            </ul>
+            <h3>Skills</h3>
+            <ul class="feature-icons">
+              <li class="icon solid fa-java">Database Management</li>
+              <li class="icon solid fa-java">Object Oriented Programming</li>
+              <li class="icon solid fa-coffee">
+                Parallel and Distributed Programming
+              </li>
+              <li class="icon solid fa-coffee">
+                Retrieval-Augmented Generation
+              </li>
+              <li class="icon solid fa-coffee">Datastructure and Algorithm</li>
+            </ul>
+          </div>
+        </section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+        <!-- Three -->
+        <section id="three">
+          <div class="container">
+            <h3>Projects</h3>
+            <div class="features">
+              <article>
+                <a
+                  href="https://github.com/Spacecode10/Chatbot"
+                  target="_blank"
+                  class="image"
+                  ><img src="images/pic01.jpg" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>Chatbot</h4>
+                  <p>
+                    A helper Chatbot for India NIC website. (Python, Langchain,
+                    RAG, Django)
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a
+                  href="https://github.com/Spacecode10/UnbeatableTikTakToe"
+                  target="_blank"
+                  class="image"
+                  ><img src="images/pic02.jpg" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>Unbeatable Tik-Tak-Toe</h4>
+                  <p>
+                    Using Minimax algorithm and alpha beta pruning created a
+                    Tik-Tak-Toe game in which user can’t win from computer, game
+                    always results in either a draw or a loss for user
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a href="https://github.com/Spacecode10/Beats.ai" class="image"
+                  ><img src="images/pic03.jpg" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>Beats.AI</h4>
+                  <p>
+                    Created a full stack application which can generate music
+                    using the given text prompt and additionally incorporated 3
+                    ways to give input as a user 1) Genre 2) Instrument 3)
+                    Melody conditioning
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a
+                  href="https://github.com/Spacecode10/HospitalManagment"
+                  class="image"
+                  ><img src="images/pic03.jpg" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>Hospital management system</h4>
+                  <p>
+                    Created a fully functional hospital management system in
+                    which patients can register and schedule appointments.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
 
-				<!-- Main -->
-					<div id="main">
-
-						<!-- One -->
-							<section id="one">
-								<div class="image main" data-position="center">
-									<img src="images/banner.jpg" alt="" />
-								</div>
-								<div class="container">
-									<header class="major">
-										<h2>Read Only</h2>
-										<p>Just an incredibly simple responsive site<br />
-										template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
-									</header>
-									<p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
-								</div>
-							</section>
-
-						<!-- Two -->
-							<section id="two">
-								<div class="container">
-									<h3>Things I Can Do</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
-									<ul class="feature-icons">
-										<li class="icon solid fa-code">Write all the code</li>
-										<li class="icon solid fa-cubes">Stack small boxes</li>
-										<li class="icon solid fa-book">Read books and stuff</li>
-										<li class="icon solid fa-coffee">Drink much coffee</li>
-										<li class="icon solid fa-bolt">Lightning bolt</li>
-										<li class="icon solid fa-users">Shadow clone technique</li>
-									</ul>
-								</div>
-							</section>
-
-						<!-- Three -->
-							<section id="three">
-								<div class="container">
-									<h3>A Few Accomplishments</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-									<div class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Possibly broke spacetime</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Terraformed a small moon</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Snapped dark matter in the wild</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-									</div>
-								</div>
-							</section>
-
-						<!-- Four -->
-							<section id="four">
-								<div class="container">
-									<h3>Contact Me</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-									<form method="post" action="#">
-										<div class="row gtr-uniform">
-											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
-											<div class="col-12">
-												<ul class="actions">
-													<li><input type="submit" class="primary" value="Send Message" /></li>
-													<li><input type="reset" value="Reset Form" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
-								</div>
-							</section>
-
-						<!-- Five -->
-						<!--
+        <!-- Four -->
+        <!-- <section id="four">
+          <div class="container">
+            <h3>Contact Me</h3>
+            <p>
+              Integer eu ante ornare amet commetus vestibulum blandit integer in
+              curae ac faucibus integer non. Adipiscing cubilia elementum
+              integer. Integer eu ante ornare amet commetus.
+            </p>
+            <form method="post" action="#">
+              <div class="row gtr-uniform">
+                <div class="col-6 col-12-xsmall">
+                  <input type="text" name="name" id="name" placeholder="Name" />
+                </div>
+                <div class="col-6 col-12-xsmall">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Message"
+                    rows="6"
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <ul class="actions">
+                    <li>
+                      <input
+                        type="submit"
+                        class="primary"
+                        value="Send Message"
+                      />
+                    </li>
+                    <li><input type="reset" value="Reset Form" /></li>
+                  </ul>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section> -->
+        <!--
 							<section id="five">
 								<div class="container">
 									<h3>Elements</h3>
@@ -459,29 +571,63 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 								</div>
 							</section>
-						-->
+						--></div>
+      <button onclick="downloadFile()" class="button alt">
+        Download Resume
+      </button>
+      <!-- Footer -->
+      <section id="footer">
+        <div class="container">
+          <ul class="copyright">
+            <li>&copy; Untitled. All rights reserved.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
 
-					</div>
+    <!-- Scripts -->
+    <script>
+      function copyToClipboard() {
+        // The email to copy
+        const email = "mitswadas51@gmail.com";
 
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
+        // Copy the email to the clipboard
+        navigator.clipboard
+          .writeText(email)
+          .then(() => {
+            // Show a pop-up alert
+            alert("Email copied to clipboard!");
+          })
+          .catch((err) => {
+            console.error("Could not copy email: ", err);
+          });
+      }
+      function downloadFile() {
+        // Create a hidden anchor element
+        const a = document.createElement("a");
 
-			</div>
+        // Set the URL of the file to be downloaded
+        a.href = "SwdasMit_Resume.pdf"; // Replace with the actual file path
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        // Set the download attribute with a default filename
+        a.download = "MitSwadasResume"; // Replace with desired file name
 
-	</body>
+        // Append the anchor to the body (necessary for some browsers)
+        document.body.appendChild(a);
+
+        // Trigger a click on the anchor element
+        a.click();
+
+        // Remove the anchor element
+        document.body.removeChild(a);
+      }
+    </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
